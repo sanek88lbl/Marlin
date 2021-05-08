@@ -2514,8 +2514,7 @@
 #define TFT_GENERIC
 #if ENABLED(TFT_GENERIC)
   // :[ 'AUTO', 'ST7735', 'ST7789', 'ST7796', 'R61505', 'ILI9328', 'ILI9341', 'ILI9488' ]
-  #define TFT_DRIVER ST7796
-  #define TFT_COLOR TFT_COLOR_RGB
+  #define TFT_DRIVER LERDGE_ST7796
 
   // Interface. Enable one of the following options:
   #define TFT_INTERFACE_FSMC
