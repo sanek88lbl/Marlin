@@ -510,9 +510,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    #define DEFAULT_Kp  13.52
+    #define DEFAULT_Ki   1.01
+    #define DEFAULT_Kd  45.41
   #endif
 #endif // PIDTEMP
 
@@ -2515,6 +2515,7 @@
 #if ENABLED(TFT_GENERIC)
   // :[ 'AUTO', 'ST7735', 'ST7789', 'ST7796', 'R61505', 'ILI9328', 'ILI9341', 'ILI9488' ]
   #define TFT_DRIVER ST7796
+  #define TFT_COLOR TFT_COLOR_RGB
 
   // Interface. Enable one of the following options:
   #define TFT_INTERFACE_FSMC
